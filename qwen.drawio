@@ -4,20 +4,42 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ltOyaePOAuUYcz1oSEs8-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="модель&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Qwen2.5-coder&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="240" as="geometry" />
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-12" edge="1" parent="1" source="ltOyaePOAuUYcz1oSEs8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="ltOyaePOAuUYcz1oSEs8-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ltOyaePOAuUYcz1oSEs8-4" edge="1" parent="1" source="ltOyaePOAuUYcz1oSEs8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ltOyaePOAuUYcz1oSEs8-2">
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="модель&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Qwen2.5-coder&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-16" edge="1" parent="1" source="ltOyaePOAuUYcz1oSEs8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ltOyaePOAuUYcz1oSEs8-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ltOyaePOAuUYcz1oSEs8-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Системный промпт" vertex="1">
-          <mxGeometry height="60" width="120" x="100" y="240" as="geometry" />
+          <mxGeometry height="60" width="120" x="404" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-10" edge="1" parent="1" source="ltOyaePOAuUYcz1oSEs8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="ltOyaePOAuUYcz1oSEs8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-14" connectable="0" parent="ltOyaePOAuUYcz1oSEs8-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTP POST /api/generate" vertex="1">
+          <mxGeometry relative="1" x="-0.119" y="-1" as="geometry">
+            <mxPoint x="75" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ltOyaePOAuUYcz1oSEs8-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Плагин VS Code" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="40" as="geometry" />
+          <mxGeometry height="60" width="120" x="240" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-11" edge="1" parent="1" source="ltOyaePOAuUYcz1oSEs8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="ltOyaePOAuUYcz1oSEs8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-13" edge="1" parent="1" source="ltOyaePOAuUYcz1oSEs8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="ltOyaePOAuUYcz1oSEs8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltOyaePOAuUYcz1oSEs8-15" connectable="0" parent="ltOyaePOAuUYcz1oSEs8-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="JSON Response" vertex="1">
+          <mxGeometry relative="1" y="-1" as="geometry">
+            <mxPoint x="-51" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ltOyaePOAuUYcz1oSEs8-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ollama&lt;div&gt;(локальный сервер)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="260" y="140" as="geometry" />
+          <mxGeometry height="60" width="120" x="240" y="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
